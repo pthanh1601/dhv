@@ -91,11 +91,11 @@ ol {
   list-style-type: none; }
 
 p {
-  font-size: 16px;
+  font-size: 25px;
   font-weight: 400;
-  line-height: 24px;
-  color: white;
-  margin: 0px; }
+  line-height: 37px;
+  color: black;
+  margin: 36px; }
 
 .bg_cover {
   background-position: center center;
@@ -143,7 +143,7 @@ p {
       color: #fff; }
 
 .section-title .title {
-  font-size: 70px;
+  font-size: 35px;
   color: #001b61;
   line-height: 80px;
   padding-bottom: 65px; }
@@ -165,7 +165,8 @@ p {
       line-height: 46px; } }
   .section-title .title span {
     color: #ff9595;
-    display: block; }
+    /* display: block;  */
+  }
 .section-title.section-title-2 .title {
   padding-bottom: 7px; }
   .section-title.section-title-2 .title span {
@@ -423,16 +424,20 @@ p {
         margin-right: 5px; }
     .header-area .header-top .header-btns ul li:first-child a {
       margin-left: 0; }
+      .header-btns .trial-btns  i {
+    color: red; /* Màu icon đỏ */
+    margin-right: 8px; /* Khoảng cách giữa icon và văn bản */
+}
   .header-area .header-top .trial-btns a {
     height: 50px;
-    line-height: 50px;
-    border: 2px solid #ff9595;
-    color: #ff9595;
+    line-height: 110px;
+    /* border: 2px solid #ff9595; */
+    color: black;
     padding: 0 50px;
     border-radius: 30px;
     margin-left: 45px;
     font-weight: 700;
-    font-size: 14px; }
+    font-size: 18px; }
     @media only screen and (min-width: 992px) and (max-width: 1200px) {
       .header-area .header-top .trial-btns a {
         padding: 0 20px;
@@ -684,7 +689,7 @@ p {
         font-size: 16px;
         font-weight: 700;
         padding: 0;
-        color: #7585af;
+        color: #0b3293;
         text-transform: capitalize;
         position: relative;
         margin: 0;
@@ -7869,3 +7874,15 @@ nav .pagination.pagination-2 li a {
     color: #f26001; }
 
 /*# sourceMappingURL=style.css.map */
+
+
+.about-core h4 {
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+.about-core p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
