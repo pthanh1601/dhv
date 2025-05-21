@@ -91,11 +91,11 @@ ol {
   list-style-type: none; }
 
 p {
-  font-size: 16px;
+  font-size: 25px;
   font-weight: 400;
-  line-height: 24px;
-  color: #6b93aa;
-  margin: 0px; }
+  line-height: 37px;
+  color: black;
+  margin: 36px; }
 
 .bg_cover {
   background-position: center center;
@@ -143,7 +143,7 @@ p {
       color: #fff; }
 
 .section-title .title {
-  font-size: 70px;
+  font-size: 35px;
   color: #001b61;
   line-height: 80px;
   padding-bottom: 65px; }
@@ -165,7 +165,8 @@ p {
       line-height: 46px; } }
   .section-title .title span {
     color: #ff9595;
-    display: block; }
+    /* display: block;  */
+  }
 .section-title.section-title-2 .title {
   padding-bottom: 7px; }
   .section-title.section-title-2 .title span {
@@ -423,16 +424,20 @@ p {
         margin-right: 5px; }
     .header-area .header-top .header-btns ul li:first-child a {
       margin-left: 0; }
+      .header-btns .trial-btns  i {
+    color: red; /* Màu icon đỏ */
+    margin-right: 8px; /* Khoảng cách giữa icon và văn bản */
+}
   .header-area .header-top .trial-btns a {
     height: 50px;
-    line-height: 50px;
-    border: 2px solid #ff9595;
-    color: #ff9595;
+    line-height: 110px;
+    /* border: 2px solid #ff9595; */
+    color: black;
     padding: 0 50px;
     border-radius: 30px;
     margin-left: 45px;
     font-weight: 700;
-    font-size: 14px; }
+    font-size: 18px; }
     @media only screen and (min-width: 992px) and (max-width: 1200px) {
       .header-area .header-top .trial-btns a {
         padding: 0 20px;
@@ -684,7 +689,7 @@ p {
         font-size: 16px;
         font-weight: 700;
         padding: 0;
-        color: #7585af;
+        color: #0b3293;
         text-transform: capitalize;
         position: relative;
         margin: 0;
@@ -2876,7 +2881,7 @@ p {
 /*===========================
     11.FOOTER css 
 ===========================*/
-.footer-area {
+/* .footer-area {
   background: #001b61;
   padding-top: 113px;
   padding-bottom: 85px; }
@@ -2920,7 +2925,6 @@ p {
       color: #ffde00; }
   .footer-area .footer-item .footer-list-area .footer-list ul li a {
     color: #fff;
-    opacity: .6;
     line-height: 46px;
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
@@ -3031,7 +3035,203 @@ p {
       .footer-area.footer-area-2 .footer-item .footer-content button i {
         padding-right: 5px; }
   .footer-area.mentor-footer::before {
-    width: 100%; }
+    width: 100%; } */
+
+.footer-area {
+  background: #001b61;
+  padding-top: 113px;
+  padding-bottom: 85px;
+}
+
+.footer-area .footer-item .footer-title {
+  position: relative;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+  padding-left: 40px;
+}
+
+.footer-area .footer-item .footer-title::before {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  width: 250px;
+  height: 1px;
+  background: #334981;
+}
+
+.footer-area .footer-item .footer-title i {
+  position: absolute;
+  left: 0;
+  top: 5px;
+  font-size: 24px;
+  color: #00d2ff;
+}
+
+.footer-area .footer-item .footer-title .title {
+  color: #fff;
+  font-size: 22px; /* Đảm bảo tiêu đề rõ ràng */
+}
+
+.footer-area .footer-item .footer-title p {
+  font-size: 14px;
+  color: #fff;
+  /* opacity: .6; */
+}
+
+.footer-area .footer-item .footer-title.item-2 i {
+  color: #ff50af;
+}
+
+.footer-area .footer-item .footer-title.item-3 i {
+  color: #ffde00;
+}
+
+/* === Style cho liên kết trong footer === */
+.footer-area .footer-item .footer-list-area .footer-list ul li a {
+  color: #fff;
+  line-height: 46px;
+  transition: all 0.3s ease-out;
+}
+
+.footer-area .footer-item .footer-list-area .footer-list ul li a i {
+  padding-right: 22px;
+}
+
+.footer-area .footer-item .footer-list-area .footer-list ul li a:hover {
+  color: #f16001;
+  opacity: 1;
+}
+
+/* === Instagram Images === */
+.footer-area .footer-item .footer-instagram .instagram-item img {
+  width: 85%;
+  margin-top: 20px;
+}
+
+/* === Layout Footer Area 2 === */
+.footer-area.footer-area-2 {
+  background: #004ab8;
+  position: relative;
+  z-index: 5;
+}
+
+.footer-area.footer-area-2::before {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 26%;
+  background: #003a91;
+}
+
+.footer-area.footer-area-2 .footer-dot {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+}
+
+.footer-area.footer-area-2 .footer-shape {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  z-index: -1;
+  text-align: right;
+}
+
+.footer-area.footer-area-2 .footer-shape img {
+  width: 100%;
+}
+
+/* === Cải thiện căn chỉnh icon mạng xã hội === */
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.social-icons li {
+  list-style-type: none;
+}
+
+.social-icons a {
+  font-size: 2.5rem; /* Làm cho các icon to lên */
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+}
+
+.social-icons a:hover {
+  color: #f16001; /* Màu khi hover */
+  transform: scale(1.2); /* Phóng to icon khi hover */
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .footer-area {
+    padding-top: 90px;
+    padding-bottom: 70px;
+  }
+
+  .footer-area .footer-item .footer-title .title {
+    font-size: 20px;
+  }
+
+  .social-icons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-icons a {
+    font-size: 2rem;
+  }
+
+  .footer-area .footer-item .footer-title::before {
+    width: 200px; /* Điều chỉnh chiều rộng của đường gạch dưới */
+  }
+
+  .footer-area .footer-item .footer-list-area {
+    display: block;
+  }
+
+  .footer-area .footer-item .footer-list {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-area {
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
+
+  .footer-area .footer-item .footer-title .title {
+    font-size: 18px; /* Giảm kích thước chữ ở tiêu đề khi màn hình nhỏ */
+  }
+
+  .social-icons {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Khoảng cách giữa các icon khi xem trên màn hình nhỏ */
+  }
+
+  .footer-area .footer-item .footer-list-area {
+    display: block;
+  }
+
+  .footer-area .footer-item .footer-list {
+    width: 100%;
+    margin-bottom: 20px; /* Khoảng cách giữa các mục */
+  }
+
+  .footer-area .footer-item .footer-title::before {
+    width: 180px; /* Điều chỉnh chiều rộng đường gạch dưới */
+  }
+}
+
+
 
 /*===========================
     BACK TO TOP CSS
@@ -7674,3 +7874,15 @@ nav .pagination.pagination-2 li a {
     color: #f26001; }
 
 /*# sourceMappingURL=style.css.map */
+
+
+.about-core h4 {
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+.about-core p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
