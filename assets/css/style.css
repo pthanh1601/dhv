@@ -1393,7 +1393,7 @@ p {
 ===========================*/
 .dream-course-area {
   margin-top: -136px;
-  padding-bottom: 110px;
+  padding-bottom: 0px;
   position: relative;
   z-index: 6; }
   .dream-course-area .dream-course-content {
@@ -1445,7 +1445,7 @@ p {
               left: -25px;
               top: 50%; } }
         .dream-course-area .dream-course-content .dream-course-search .input-box input {
-          width: 260px;
+          width: 700px;
           border: 0;
           padding-left: 35px;
           color: #a6b2cf; }
@@ -4045,7 +4045,7 @@ p {
     18.COURSE css 
 ===========================*/
 .course-grid-area {
-  background: #f7fcff; }
+   }
   .course-grid-area .course-sidebar .course-price-filter {
     padding: 30px 30px 20px; }
     .course-grid-area .course-sidebar .course-price-filter .course-title {
@@ -5914,9 +5914,9 @@ p {
       padding: 37px 25px 40px; } }
   .blog-standard-area .blog-sidebar .blog-side-about .about-title .title {
     font-size: 20px;
-    padding-left: 46px;
+    /* padding-left: 46px; */
     position: relative; }
-    .blog-standard-area .blog-sidebar .blog-side-about .about-title .title::before {
+    /* .blog-standard-area .blog-sidebar .blog-side-about .about-title .title::before {
       position: absolute;
       content: '';
       top: 50%;
@@ -5933,7 +5933,7 @@ p {
       transform: translateY(-50%);
       height: 4px;
       width: 4px;
-      background: #39bdb2; }
+      background: #39bdb2; } */
   .blog-standard-area .blog-sidebar .blog-side-about .blog-about-content {
     padding-top: 33px; }
     .blog-standard-area .blog-sidebar .blog-side-about .blog-about-content .title {
