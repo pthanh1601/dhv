@@ -135,3 +135,77 @@
     padding: 0 25px; 
 
 }
+
+.author-box {
+  background-color: white;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+.author-avatar {
+  width: 130px;
+  height: 130px;
+  background-color: #d1d5db;
+}
+
+.author-name {
+  color: #1e3a8a;
+  margin-top: 10px;
+}
+
+.author-info {
+  padding-left: 20px;
+  padding-bottom: 50px;
+}
+
+.author-quote {
+  font-size: 22px;
+  color: #1e3a8a ;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.author-button {
+  text-align: center;
+  display: inline-block;
+  padding: 10px 15px;
+  font-weight: 500;
+  border-radius: 0px;
+  padding: 6px;
+}
+
+.sidebar {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.list-unstyled li {
+  margin-bottom: 10px;
+}
+
+.list-unstyled a {
+  text-decoration: none;
+  color: #121f4c;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.list-unstyled a:hover {
+  color: #dc2626;
+}
+
+.carousel-inner img {
+  width: 100%;
+  object-fit: cover; 
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: #121f4c; 
+  width: 40px; 
+  height: 40px;
+  border-radius: 50%; 
+}
+
+.carousel-control-prev, .carousel-control-next {
+  width: 5%; 
+}
