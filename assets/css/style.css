@@ -1857,8 +1857,8 @@ p {
     border-radius: 50%;
     text-align: center;
     line-height: 56px;
-    border: 2px solid #ebecf6;
-    color: #87a1c1;
+    /* border: 2px solid #ebecf6; */
+    color: #121f4c;
     cursor: pointer;
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
@@ -1873,9 +1873,9 @@ p {
       .advance-courses-area .courses-active .slick-arrow {
         top: -100px; } }
     .advance-courses-area .courses-active .slick-arrow:hover {
-      background: #f16001;
+      /* background: #f16001; */
       color: #fff;
-      border-color: #f16001;
+      /* border-color: #f16001; */
       box-shadow: 0px 8px 16px 0px rgba(241, 96, 1, 0.2); }
     .advance-courses-area .courses-active .slick-arrow.prev {
       right: 95px; }
@@ -1887,11 +1887,13 @@ p {
       top: 50%;
       transform: translateY(-50%);
       z-index: 9;
-      color: #fff; }
+      /* color: #fff;  */
+    }
       .advance-courses-area.advance-courses-area-2 .courses-active .slick-arrow:hover {
-        background: #00ffd8;
-        border-color: #00ffd8;
-        color: #001b61; }
+        /* background: #00ffd8; */
+        /* border-color: #00ffd8; */
+        /* color: #001b61;  */
+      }
       .advance-courses-area.advance-courses-area-2 .courses-active .slick-arrow.prev {
         left: -65px; }
       .advance-courses-area.advance-courses-area-2 .courses-active .slick-arrow.next {
@@ -2661,7 +2663,7 @@ p {
     border-radius: 50%;
     text-align: center;
     line-height: 56px;
-    border: 3px solid #e9ecff;
+    /* border: 3px solid #e9ecff; */
     color: #001b61;
     font-size: 20px;
     cursor: pointer;
@@ -2672,7 +2674,7 @@ p {
     -o-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s; }
     .testimonials-area .testimonials-active .slick-arrow.prev {
-      left: -60px; }
+      left: 60px; }
       @media only screen and (min-width: 992px) and (max-width: 1200px) {
         .testimonials-area .testimonials-active .slick-arrow.prev {
           left: 0; } }
@@ -2680,7 +2682,7 @@ p {
         border-right-color: #e9ecff;
         border-left-color: #53cfa5; }
     .testimonials-area .testimonials-active .slick-arrow.next {
-      right: -60px; }
+      right: 60px; }
       @media only screen and (min-width: 992px) and (max-width: 1200px) {
         .testimonials-area .testimonials-active .slick-arrow.next {
           right: 0; } }
@@ -2777,7 +2779,10 @@ p {
     background-image: url(../images/community-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center; }
+    background-position: center;
+    background-color: rgba(0, 128, 255, 0.5); 
+    background-blend-mode: multiply; 
+   }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .community-area::before {
         width: 0; } }
@@ -3034,6 +3039,280 @@ p {
         padding-right: 5px; }
   .footer-area.mentor-footer::before {
     width: 100%; }
+
+
+  .footer-area {
+    background: #001b61;
+    padding-top: 113px;
+    padding-bottom: 85px;
+  }
+
+  .footer-area .footer-item .footer-title {
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    padding-left: 40px;
+  }
+
+  .footer-area .footer-item .footer-title::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    /* height: 1px; */
+    background: #334981;
+  }
+
+  .footer-area .footer-item .footer-title i {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    font-size: 24px;
+    color: #00d2ff;
+  }
+
+  .footer-area .footer-item .footer-title .title {
+    color: #fff;
+    font-size: 22px; /* Đảm bảo tiêu đề rõ ràng */
+  }
+
+  .footer-area .footer-item .footer-title p {
+    font-size: 14px;
+    color: #fff;
+    /* opacity: .6; */
+  }
+
+  .footer-area .footer-item .footer-title.item-2 i {
+    color: #ff50af;
+  }
+
+  .footer-area .footer-item .footer-title.item-3 i {
+    color: #ffde00;
+  }
+
+  /* === Style cho liên kết trong footer === */
+  .footer-area .footer-item .footer-list-area .footer-list ul li a {
+    color: #fff;
+    line-height: 46px;
+    transition: all 0.3s ease-out;
+  }
+
+  .footer-area .footer-item .footer-list-area .footer-list ul li a i {
+    padding-right: 22px;
+  }
+
+  .footer-area .footer-item .footer-list-area .footer-list ul li a:hover {
+    color: #f16001;
+    opacity: 1;
+  }
+
+  /* === Instagram Images === */
+  .footer-area .footer-item .footer-instagram .instagram-item img {
+    width: 85%;
+    margin-top: 20px;
+  }
+
+  /* === Layout Footer Area 2 === */
+  .footer-area.footer-area-2 {
+    background: #004ab8;
+    position: relative;
+    z-index: 5;
+  }
+
+  .footer-area.footer-area-2::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 26%;
+    background: #003a91;
+  }
+
+  .footer-area.footer-area-2 .footer-dot {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+  }
+
+  .footer-area.footer-area-2 .footer-shape {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: -1;
+    text-align: right;
+  }
+
+  .footer-area.footer-area-2 .footer-shape img {
+    width: 100%;
+  }
+
+  /* === Cải thiện căn chỉnh icon mạng xã hội === */
+  .social-icons {
+    display: flex;
+    justify-content: center; 
+    gap: 15px;
+    padding: 0;
+    margin: 0 auto;         
+    width: fit-content;       
+  }
+
+  .social-icons li {
+    list-style-type: none;
+  }
+
+  .social-icons a {
+    font-size: 2.5rem; /* Làm cho các icon to lên */
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-out;
+  }
+
+  .social-icons a:hover {
+    color: #f16001; /* Màu khi hover */
+    transform: scale(1.2); /* Phóng to icon khi hover */
+  }
+
+  .link-column-2 li {
+      font-size: 16px;
+      color: white;
+      margin-bottom: 40px;
+  }
+/* === Footer Responsive cải tiến === */
+@media (max-width: 992px) {
+  .footer-area .row {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-area .col-lg-4,
+  .footer-area .col-lg-5,
+  .footer-area .col-lg-3 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+
+  .footer-area .footer-item {
+    margin-bottom: 40px;
+  }
+
+  .footer-area .footer-item .footer-title {
+    padding-left: 0;
+  }
+
+  .footer-area .footer-item .footer-title::before {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+  }
+
+  .footer-list-area {
+    flex-direction: column !important;
+    gap: 30px;
+  }
+
+  .footer-list {
+    margin-bottom: 20px;
+  }
+
+.social-icons {
+  display: flex;
+  justify-content: center; 
+  gap: 15px;
+  padding: 0;
+  margin: 0 auto;          
+  width: fit-content;       
+}
+
+
+  .social-icons a {
+    font-size: 2rem;
+  }
+
+  .social-icons img {
+    height: 32px;
+    vertical-align: middle;
+    filter: brightness(0) invert(1);
+  }
+
+  .link-column-2 li {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+}
+  /* Responsive Design */
+  @media (max-width: 1200px) {
+    .footer-area {
+      padding-top: 90px;
+      padding-bottom: 70px;
+    }
+
+    .footer-area .footer-item .footer-title .title {
+      font-size: 20px;
+    }
+
+  .social-icons {
+    display: flex;
+    justify-content: center; 
+    gap: 15px;
+    padding: 0;
+    margin: 0 auto;          
+    width: fit-content;     
+  }
+
+
+    .social-icons a {
+      font-size: 2rem;
+    }
+
+    .footer-area .footer-item .footer-title::before {
+      width: 200px; /* Điều chỉnh chiều rộng của đường gạch dưới */
+    }
+
+    .footer-area .footer-item .footer-list-area {
+      display: block;
+    }
+
+    .footer-area .footer-item .footer-list {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .footer-area {
+      padding-top: 80px;
+      padding-bottom: 60px;
+    }
+
+    .footer-area .footer-item .footer-title .title {
+      font-size: 18px; /* Giảm kích thước chữ ở tiêu đề khi màn hình nhỏ */
+    }
+
+  .social-icons {
+    display: flex;
+    justify-content: center; 
+    gap: 15px;
+    padding: 0;
+    margin: 0 auto;          
+    width: fit-content;       
+  }
+
+
+    .footer-area .footer-item .footer-list-area {
+      display: block;
+    }
+
+    .footer-area .footer-item .footer-list {
+      width: 100%;
+      margin-bottom: 20px; /* Khoảng cách giữa các mục */
+    }
+
+    .footer-area .footer-item .footer-title::before {
+      width: 180px; /* Điều chỉnh chiều rộng đường gạch dưới */
+    }
+  }
 
 /*===========================
     BACK TO TOP CSS
