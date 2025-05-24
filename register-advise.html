@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Form with Icons</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+    select {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+    }
+  </style>
+</head>
+<body class="bg-gray-700 min-h-screen flex items-center justify-center p-4">
+  <form class="bg-white rounded-2xl w-full max-w-md p-8 flex flex-col gap-5" autocomplete="off">
+    <h1 class="text-center text-[#152a5b] font-extrabold text-3xl leading-tight">
+      ĐĂNG KÝ<br />
+      NHẬN TƯ VẤN
+    </h1>
+
+    <!-- Hình thức tư vấn -->
+    <div class="relative flex items-center border border-gray-200 rounded-xl px-4 py-3 focus-within:ring-2 focus-within:ring-[#152a5b]">
+     <i class="fas fa-caret-down absolute right-4 text-gray-400 pointer-events-none"></i>
+
+      <select class="w-full text-gray-400 text-lg bg-transparent focus:outline-none pr-6">
+        <option disabled selected>Chọn hình thức tư vấn</option>
+        <option>Hình thức 1</option>
+        <option>Hình thức 2</option>
+      </select>
+     
+    </div>
+
+    <!-- Họ và tên -->
+    <div class="flex items-center border border-gray-200 rounded-xl px-4 py-3 focus-within:ring-2 focus-within:ring-[#152a5b]">
+      <i class="fas fa-user text-gray-400 mr-3"></i>
+      <input type="text" placeholder="Họ và tên" class="w-full text-gray-400 text-lg placeholder-gray-400 focus:outline-none" />
+    </div>
+
+    <!-- Số điện thoại -->
+    <div class="flex items-center border border-gray-200 rounded-xl px-4 py-3 focus-within:ring-2 focus-within:ring-[#152a5b]">
+      <i class="fas fa-phone text-gray-400 mr-3"></i>
+      <input type="tel" placeholder="Số điện thoại" class="w-full text-gray-400 text-lg placeholder-gray-400 focus:outline-none" />
+    </div>
+
+    <!-- Email -->
+    <div class="flex items-center border border-gray-200 rounded-xl px-4 py-3 focus-within:ring-2 focus-within:ring-[#152a5b]">
+      <i class="fas fa-envelope text-gray-400 mr-3"></i>
+      <input type="email" placeholder="Email" class="w-full text-gray-400 text-lg placeholder-gray-400 focus:outline-none" />
+    </div>
+
+    <!-- Tên doanh nghiệp -->
+    <div class="flex items-center border border-gray-200 rounded-xl px-4 py-3 focus-within:ring-2 focus-within:ring-[#152a5b]">
+      <i class="fas fa-building text-gray-400 mr-3"></i>
+      <input type="text" placeholder="Tên Doanh nghiệp" class="w-full text-gray-400 text-lg placeholder-gray-400 focus:outline-none" />
+    </div>
+
+    <!-- Gói tư vấn -->
+    <div class="relative flex items-center border border-gray-200 rounded-xl px-4 py-3 focus-within:ring-2 focus-within:ring-[#152a5b]">
+   <i class="fas fa-caret-down absolute right-4 text-gray-400 pointer-events-none"></i>
+      <select class="w-full text-black text-lg bg-transparent focus:outline-none pr-6">
+        <option selected>Gói số 1: Khởi nghiệp thông minh</option>
+        <option>Gói số 2</option>
+        <option>Gói số 3</option>
+      </select>
+ 
+    </div>
+
+    <!-- Vấn đề đang gặp -->
+    <div class="flex items-start border border-gray-200 rounded-xl px-4 py-3 focus-within:ring-2 focus-within:ring-[#152a5b]">
+      <i class="fas fa-note-sticky text-gray-400 mr-3 mt-1"></i>
+      <textarea rows="3" placeholder="Vấn đề đang gặp phải và mong muốn ..." class="w-full text-gray-400 text-lg placeholder-gray-400 focus:outline-none resize-none"></textarea>
+    </div>
+
+    <!-- Gửi yêu cầu -->
+    <button type="submit" class="bg-[#c8000b] text-white font-extrabold text-xl rounded-full py-3 px-12 mx-auto mt-4 tracking-wide">
+      GỬI YÊU CẦU
+    </button>
+  </form>
+</body>
+</html>

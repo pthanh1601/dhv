@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--====== Required meta tags ======-->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--====== Title ======-->
+    <title>Edus - LMS & Online Education Learning HTML Template</title>
+
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/png">
+
+    <!--====== animate css ======-->
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!--====== Fontawesome css ======-->
+    <link rel="stylesheet" href="assets/css/all.css">
+
+    <!--====== Magnific Popup css ======-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+
+    <!--====== Slick css ======-->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+
+    <!--====== nice select css ======-->
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+
+    <!--====== Slick css ======-->
+    <link rel="stylesheet" href="assets/css/slick.css">
+
+    <!--====== Default css ======-->
+    <link rel="stylesheet" href="assets/css/default.css">
+
+    <!--====== Style css ======-->
+    <link rel="stylesheet" href="assets/css/about.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Custom CSS for Cards -->
+    <style>
+        .services-area .card {
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s;
+            margin-bottom: 10%;
+        }
+
+        .services-area .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .services-area .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .services-area .card-body {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .services-area .card-body h6 {
+            color: #ed1c24;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .services-area .card-body h5 {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .services-area .card-body ol {
+            padding-left: 20px;
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 20px;
+            flex-grow: 1;
+        }
+
+        .services-area .card-body ol li {
+            margin-bottom: 8px;
+        }
+
+        .services-area .card-body .btn {
+            background-color: #ed1c24;
+            color: white;
+            font-weight: 600;
+            border-radius: 5px;
+            padding: 10px 20px;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 14px;
+            transition: background-color 0.3s;
+        }
+
+        .services-area .card-body .btn:hover {
+            background-color: #c8102e;
+        }
+
+        /* Pagination Styling */
+        .pagination .page-item.active .page-link {
+            background-color: #ed1c24;
+            border-color: #ed1c24;
+            color: white;
+        }
+
+        .pagination .page-link {
+            color: #ed1c24;
+            border: 1px solid #ddd;
+            margin: 0 5px;
+            border-radius: 5px;
+        }
+
+        .pagination .page-link:hover {
+            background-color: #f8f9fa;
+            border-color: #ddd;
+        }
+    </style>
+</head>
+
+<body>
+    <!--====== PRELOADER PART START ======-->
+    <div id="preloader">
+        <div id="status">
+            <div class="spinner">
+                <div class="rect1"></div>
+                <div class="rect2"></div>
+                <div class="rect3"></div>
+                <div class="rect4"></div>
+                <div class="rect5"></div>
+            </div>
+        </div>
+    </div>
+    <!--====== PRELOADER PART ENDS ======-->
+
+    <!--====== HEADER PART START ======-->
+    <header class="header-area">
+        <div class="header-top">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-md-7 col-sm-5">
+                        <div
+                            class="header-logo d-flex align-items-center justify-content-center justify-content-sm-start">
+                            <div class="logo"><a href="index.html"><img src="assets/images/Media/CORE 1.png"
+                                        alt="logo"></a></div>
+                            <form class="d-none d-md-inline-block" action="#">
+                                <div class="input-box">
+                                    <i class="fal fa-search"></i>
+                                    <input type="text" placeholder="Search Your keyword">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-7 col-sm-5">
+                        <div
+                            class="header-btns d-flex align-items-center justify-content-center justify-content-sm-end">
+                            <div class="trial-btns d-none d-lg-block">
+                                <a href="#"><i class="fas fa-right-to-bracket"></i> Đăng nhập</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-menu">
+            <div class="navigation">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <nav class="navbar navbar-expand-lg">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                    data-target="#navbarFive" aria-controls="navbarFive" aria-expanded="false"
+                                    aria-label="Toggle navigation">
+                                    <span class="toggler-icon"></span>
+                                    <span class="toggler-icon"></span>
+                                    <span class="toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse sub-menu-bar" id="navbarFive">
+                                    <ul class="navbar-nav mr-auto">
+                                        <li class="nav-item">
+                                            <a class="page-scroll" href="about.html">Trang chủ</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="page-scroll" href="about.html">Giới Thiệu</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="page-scroll" href="#">Dịch vụ <i
+                                                    class="fal fa-angle-down"></i></a>
+                                            <ul class="sub-menu">
+                                                <li><a href="event.html">Doanh nghiệp</a></li>
+                                                <li><a href="our-events.html">Tổ chức sự kiện</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="page-scroll" href="about.html">Khóa học ngắn hạn</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="page-scroll" href="#">Tin tức và Dự án <i
+                                                    class="fal fa-angle-down"></i></a>
+                                            <ul class="sub-menu">
+                                                <li><a href="news.html">Tin tức</a></li>
+                                                <li><a href="project.html">Dự án</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="page-scroll" href="contact.html">Thư viện số</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="page-scroll" href="contact.html">Đặt lịch tư vấn</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="page-scroll" href="contact.html">Liên hệ</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--====== HEADER PART ENDS ======-->
+
+    <!--====== BANNER PART START ======-->
+    <div class="page-title bg_cover mt-80 pt-140 pb-140"
+        style="background-image: url(assets/images/gioithieu/Banner\ chính.jpg)">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-5">
+                    <div class="page-title-item text-center">
+                        <h3 class="title">CORE</h3>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
+                                <li class="breadcrumb-item"><a href="#">Dịch vụ</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Doanh nghiệp</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--====== PAGE TITLE PART ENDS ======-->
+
+    <!--====== SERVICES PART START ======-->
+    <div class="dream-course-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="dream-course-content">
+                        <div class="dream-course-title text-center">
+                            <span>Tìm kiếm dịch vụ bạn mong muốn</span>
+                        </div>
+                        <form action="#">
+                            <div class="dream-course-search d-flex">
+                                <div class="input-box">
+                                    <i class="fal fa-search"></i>
+                                    <input type="text" placeholder="Tìm kiếm dịch vụ">
+                                </div>
+                                <div class="dream-course-btn">
+                                    <button type="button">Tìm kiếm</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--====== SERVICES PART ENDS ======-->
+
+    <!--====== OFFER PART START ======-->
+    <section class="services-area pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <!-- Card 1 -->
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="card">
+                        <div class="single-courses ">
+                            <div class="courses-thumb">
+                                <img src="assets/images/Media/3. Dịch vụ/1.JPG" alt="courses">
+
+                                <div class="corses-thumb-title">
+                                    <span>Đào tạo</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+
+                            <h5>GÓI SỐ 3: PHÁT TRIỂN TỪ BÊN TRONG</h5>
+                            <ol>
+                                <li>Khảo sát nhu cầu đào tạo</li>
+                                <li>Thiết kế Khung chương trình "từ nòng giáp"</li>
+                                <li>Giảng viên nhiệt tình</li>
+                                <li>File tài liệu + tổng hợp buổi học</li>
+                            </ol>
+                            <a href="#" class="btn">XEM THÊM</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="card">
+                        <div class="single-courses ">
+                            <div class="courses-thumb">
+                                <img src="assets/images/Media/3. Dịch vụ/1.JPG" alt="courses">
+
+                                <div class="corses-thumb-title">
+                                    <span>Đào tạo</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+
+                            <h5>GÓI SỐ 3: PHÁT TRIỂN TỪ BÊN TRONG</h5>
+                            <ol>
+                                <li>Khảo sát nhu cầu đào tạo</li>
+                                <li>Thiết kế Khung chương trình "từ nòng giáp"</li>
+                                <li>Giảng viên nhiệt tình</li>
+                                <li>File tài liệu + tổng hợp buổi học</li>
+                            </ol>
+                            <a href="#" class="btn">XEM THÊM</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="card">
+                        <div class="single-courses ">
+                            <div class="courses-thumb">
+                                <img src="assets/images/Media/3. Dịch vụ/1.JPG" alt="courses">
+
+                                <div class="corses-thumb-title">
+                                    <span>Đào tạo</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+
+                            <h5>GÓI SỐ 3: PHÁT TRIỂN TỪ BÊN TRONG</h5>
+                            <ol>
+                                <li>Khảo sát nhu cầu đào tạo</li>
+                                <li>Thiết kế Khung chương trình "từ nòng giáp"</li>
+                                <li>Giảng viên nhiệt tình</li>
+                                <li>File tài liệu + tổng hợp buổi học</li>
+                            </ol>
+                            <a href="#" class="btn">XEM THÊM</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="card">
+                        <div class="single-courses ">
+                            <div class="courses-thumb">
+                                <img src="assets/images/Media/3. Dịch vụ/1.JPG" alt="courses">
+
+                                <div class="corses-thumb-title">
+                                    <span>Đào tạo</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+
+                            <h5>GÓI SỐ 3: PHÁT TRIỂN TỪ BÊN TRONG</h5>
+                            <ol>
+                                <li>Khảo sát nhu cầu đào tạo</li>
+                                <li>Thiết kế Khung chương trình "từ nòng giáp"</li>
+                                <li>Giảng viên nhiệt tình</li>
+                                <li>File tài liệu + tổng hợp buổi học</li>
+                            </ol>
+                            <a href="#" class="btn">XEM THÊM</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+    <section class="services-area pt-5 pb-5">
+        <div class="container">
+            <!-- Pagination -->
+            <nav aria-label="Pagination" class="d-flex justify-content-center mt-4">
+                <ul class="pagination">
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <!--====== OFFER PART ENDS ======-->
+
+
+
+    <!--====== FOOTER PART START ======-->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row">
+                <!-- Footer Item 1 (Logo + Social Icons) -->
+                <div class="col-lg-4 col-md-5">
+                    <div class="footer-item mt-30">
+                        <div class="footer-title">
+                            <img src="assets/images/Media/CORE 2.png" alt="CORE Logo" style="max-width: 200px;">
+                        </div>
+                        <div class="footer-list-area">
+                            <div class="footer-list">
+                                <ul class="social-icons">
+                                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-tiktok"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                    <li><a href="#"><i class=""><img src="assets/images/Media/zalo.png" alt=""></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer Item 2 (Quick Links) -->
+                <div class="col-lg-5 col-md-5">
+                    <div class="footer-item mt-30">
+                        <div class="footer-title">
+                            <h4 class="title">LIÊN KẾT NHANH</h4>
+                        </div>
+                        <div class="footer-list-area" style="display: flex; gap: 50px;">
+                            <div class="footer-list">
+                                <ul class="link-column">
+                                    <li><a href="#">> Dự án</a></li>
+                                    <li><a href="#">> Tài liệu số</a></li>
+                                    <li><a href="#">> Đặt lịch tư vấn</a></li>
+                                    <li><a href="#">> Đào tạo ngắn hạn</a></li>
+                                    <li><a href="#">> Chính sách & Điều khoản</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-list">
+                                <ul class="link-column">
+                                    <li><a href="#">> Trang chủ</a></li>
+                                    <li><a href="#">> Giới thiệu</a></li>
+                                    <li><a href="#">> Dịch vụ doanh nghiệp</a></li>
+                                    <li><a href="#">> Tổ chức sự kiện</a></li>
+                                    <li><a href="#">> Tin tức</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer Item 3 (Contact Information) -->
+                <div class="col-lg-3 col-md-5">
+                    <div class="footer-item mt-30">
+                        <div class="footer-title">
+                            <h4 class="title">LIÊN HỆ</h4>
+                        </div>
+                        <div class="footer-list">
+                            <ul class="link-column-2">
+                                <li><i class="fas fa-phone-alt"></i> Số điện thoại: 0934827742</li>
+                                <li><i class="fas fa-envelope"></i> Email: core@dhv.edu.vn</li>
+                                <li><i class="fas fa-map-marker-alt"></i> Địa chỉ: 736 Nguyễn Trãi, Phường 11, Quận 5,
+                                    TP. HCM</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--====== FOOTER PART ENDS ======-->
+
+    <!--====== BACK TO TOP ======-->
+    <div class="back-to-top">
+        <a href="#">
+            <i class="fal fa-chevron-double-up"></i>
+        </a>
+    </div>
+    <!--====== BACK TO TOP ======-->
+
+    <!--====== jquery js ======-->
+    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+
+    <!--====== Bootstrap js ======-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+
+    <!--====== Slick js ======-->
+    <script src="assets/js/slick.min.js"></script>
+
+    <!--====== Isotope js ======-->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+
+    <!--====== Images Loaded js ======-->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+
+    <!--====== owl carousel js ======-->
+    <script src="assets/js/owl.carousel.min.js"></script>
+
+    <!--====== nice select js ======-->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+
+    <!--====== wow js ======-->
+    <script src="assets/js/wow.min.js"></script>
+
+    <!--====== counterup js ======-->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+
+    <!--====== waypoints js ======-->
+    <script src="assets/js/waypoints.min.js"></script>
+
+    <!--====== Magnific Popup js ======-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+
+    <!--====== Ajax Contact js ======-->
+    <script src="assets/js/ajax-contact.js"></script>
+
+    <!--====== Main js ======-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

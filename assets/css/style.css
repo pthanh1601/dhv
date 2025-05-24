@@ -23,7 +23,7 @@
 ===========================*/
 @import url("https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,900|Philosopher:400,700,700i&amp;display=swap");
 body {
-  /* font-family: "Karla", sans-serif; */
+  font-family: "Karla", sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #6b93aa;
@@ -88,9 +88,7 @@ ul,
 ol {
   margin: 0px;
   padding: 0px;
-  list-style-type: none; 
-  }
-
+  list-style-type: none; }
 
 p {
   font-size: 16px;
@@ -730,7 +728,7 @@ p {
           top: -1px;
           height: 2px;
           width: 0%;
-          background: #ed1c24;
+          background: #f16001;
           -webkit-transition: all 0.3s ease-out 0s;
           -moz-transition: all 0.3s ease-out 0s;
           -ms-transition: all 0.3s ease-out 0s;
@@ -743,7 +741,7 @@ p {
             .navigation .navbar .navbar-nav .nav-item a::before {
               display: none; } }
         .navigation .navbar .navbar-nav .nav-item a:hover {
-          color: #ed1c24; }
+          color: #f16001; }
           .navigation .navbar .navbar-nav .nav-item a:hover::before {
             width: 100%; }
       .navigation .navbar .navbar-nav .nav-item .sub-menu {
@@ -1390,7 +1388,7 @@ p {
 ===========================*/
 .dream-course-area {
   margin-top: -136px;
-  padding-bottom: 0px;
+  padding-bottom: 110px;
   position: relative;
   z-index: 6; }
   .dream-course-area .dream-course-content {
@@ -1442,7 +1440,7 @@ p {
               left: -25px;
               top: 50%; } }
         .dream-course-area .dream-course-content .dream-course-search .input-box input {
-          width: 700px;
+          width: 260px;
           border: 0;
           padding-left: 35px;
           color: #a6b2cf; }
@@ -3813,8 +3811,7 @@ p {
     18.COURSE css 
 ===========================*/
 .course-grid-area {
-
-   }
+  background: #f7fcff; }
   .course-grid-area .course-sidebar .course-price-filter {
     padding: 30px 30px 20px; }
     .course-grid-area .course-sidebar .course-price-filter .course-title {
@@ -5683,9 +5680,9 @@ p {
       padding: 37px 25px 40px; } }
   .blog-standard-area .blog-sidebar .blog-side-about .about-title .title {
     font-size: 20px;
-    /* padding-left: 46px; */
+    padding-left: 46px;
     position: relative; }
-    /* .blog-standard-area .blog-sidebar .blog-side-about .about-title .title::before {
+    .blog-standard-area .blog-sidebar .blog-side-about .about-title .title::before {
       position: absolute;
       content: '';
       top: 50%;
@@ -5702,7 +5699,7 @@ p {
       transform: translateY(-50%);
       height: 4px;
       width: 4px;
-      background: #39bdb2; } */
+      background: #39bdb2; }
   .blog-standard-area .blog-sidebar .blog-side-about .blog-about-content {
     padding-top: 33px; }
     .blog-standard-area .blog-sidebar .blog-side-about .blog-about-content .title {
@@ -5736,12 +5733,10 @@ p {
     position: relative; }
     .blog-standard-area .blog-sidebar .blog-side-about .blog-Search-content .input-box input {
       width: 100%;
-      border: 1;
-      border-color: #EEEEEE;
-      border-radius: 30px;
+      border: 0;
       height: 60px;
       line-height: 60px;
-      /* background: #f6f4ff; */
+      background: #f6f4ff;
       padding-left: 30px;
       color: #7e9cac;
       font-size: 14px; }
@@ -5756,7 +5751,7 @@ p {
       top: 0;
       right: 0;
       height: 100%;
-      background: #ed1c24;
+      background: #06f;
       color: #fff;
       border: 0;
       line-height: 60px;
@@ -5996,7 +5991,7 @@ p {
     .blog-standard-area .blog-standard .single-blog-grid .blog-thumb img {
       width: 100%; }
   .blog-standard-area .blog-standard .single-blog-grid .blog-content {
-    padding: 0px 15px 1%;
+    padding: 0px 40px 35px;
     margin-top: -12px;
     z-index: 3;
     position: relative; }
