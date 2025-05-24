@@ -1,6 +1,6 @@
 /* CSS cho course-grid-area */
 .course-grid-area {
-    padding-top: 90px;
+    padding-top: 20px;
     padding-bottom: 120px;
 }
 
@@ -22,6 +22,14 @@
     max-width: 30%;
     padding: 0;
     height: 300px; /* Cố định chiều cao của container ảnh */
+}@media (max-width: 767px) {
+    .course-list-thumb {
+        flex: 0 0 100%;
+        max-width: 100%;
+        height: auto;
+        aspect-ratio: 4/3; /* Giữ tỷ lệ ảnh */
+    }
+    
 }
 
 /* Cố định kích thước ảnh */
@@ -42,6 +50,12 @@
     flex-direction: column;
     justify-content: center;
     background-color: #fff;
+}@media (max-width: 767px) {
+    .courses-content {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 15px;
+    }
 }
 
 .courses-content h4.title {
@@ -60,7 +74,13 @@
     display: inline-flex; /* Sử dụng inline-flex để cùng hàng */
     align-items: center;
     margin-right: 10px; /* Khoảng cách giữa h4 và p */
+}@media (max-width: 767px) {
+    .courses-content .title:nth-child(3) {
+        display: flex;
+        margin-right: 0;
+    }
 }
+
 
 .courses-content .title:nth-child(3)::before {
     content: "\1F4CD"; 
@@ -81,6 +101,12 @@
     margin: 5px 0;
     display: inline; /* Đặt p cùng hàng với h4 */
     line-height: 1.5;
+}
+@media (max-width: 767px) {
+    .course-grid-area .single-course-list .courses-content p {
+        font-size: 14px;
+        display: block;
+    }
 }
 
 /* Style cho button */
@@ -117,7 +143,11 @@
     font-weight: 900;
     font-size: 20px;
 }
-
+@media (max-width: 767px) {
+    .dream-course-area .dream-course-content .dream-course-title span {
+        font-size: 16px;
+    }
+}
 
 .dream-course-area .dream-course-content .dream-course-search .input-box i {
     color: #cc0000;
@@ -130,10 +160,10 @@
 .dream-course-area .dream-course-content .dream-course-search .dream-course-btn {
   margin-left: auto;
 }
-
-.dream-course-area .dream-course-content .dream-course-search {
-    padding: 0 25px; 
-
+@media (max-width: 767px) {
+    .dream-course-area .dream-course-content .dream-course-search .dream-course-btn {
+        margin-left: 0;
+    }
 }
 
 .author-box {
