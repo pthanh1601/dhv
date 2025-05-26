@@ -431,13 +431,14 @@ p {
 }
   .header-area .header-top .trial-btns a {
     height: 50px;
-    line-height: 110px;
+    /* line-height: 110px; */
     /* border: 2px solid #ff9595; */
     color: black;
     padding: 0 50px;
     border-radius: 30px;
     margin-left: 45px;
     font-weight: 700;
+    align-content: center;
     font-size: 18px; }
     @media only screen and (min-width: 992px) and (max-width: 1200px) {
       .header-area .header-top .trial-btns a {
@@ -878,7 +879,7 @@ p {
           .navigation .navbar .navbar-nav .nav-item .sub-menu > li:hover .sub-nav-toggler {
             color: #fff; }
           .navigation .navbar .navbar-nav .nav-item .sub-menu > li:hover > a {
-            background-color: #f16001;
+            background-color: #ed1c24;
             color: #fff !important; }
             .navigation .navbar .navbar-nav .nav-item .sub-menu > li:hover > a::before {
               opacity: 1; }
